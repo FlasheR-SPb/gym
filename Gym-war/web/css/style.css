@@ -1,0 +1,59 @@
+body {background-color:black; font-family:Arial;}
+
+a.rollover1 {
+    background: url(../img/buy.png); /* Путь к файлу с исходным  рисунком */
+    display: block; /* Рисунок как блочный элемент */
+    width: 380px; /* Ширина рисунка в пикселах */
+    height: 150px; /* Высота рисунка */
+}
+a.rollover1:hover {
+    background-position: 0 -150px; /* Смещение фона */
+}
+
+a.rollover2 {
+    background: url(../img/login.png); /* Путь к файлу с исходным  рисунком */
+    display: block; /* Рисунок как блочный элемент */
+    width: 380px; /* Ширина рисунка в пикселах */
+    height: 150px; /* Высота рисунка */
+}
+a.rollover2:hover {
+    background-position: 0 -150px; /* Смещение фона */
+}
+
+#i1,#i2,#i3{display:none}  
+
+.styled-select {
+	padding-left: 500px;
+}
+
+.styled-select select {
+   background: #555555;
+   width: 300px;
+   height:35px;
+   padding: 3px;
+   font-size: 20px;
+   color: #FAD71D;
+   border: 1px solid #FAD71D;
+}
+
+p {color: #FAD71D; font-size: 20px;}
+
+#price {
+   background: #555555;
+   width: 250px;
+   height:50px;
+   margin-right: 30px;
+   font-size: 20px;
+   color: #FAD71D;
+   border: 1px solid #FAD71D;
+}
+
+#subm {
+	background: #555555;
+   width: 250px;
+   height:50px;
+   margin-right: 30px;
+   font-size: 20px;
+   color: #FAD71D;
+   border: 1px solid #FAD71D;
+}
